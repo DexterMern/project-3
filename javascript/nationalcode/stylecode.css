@@ -1,0 +1,111 @@
+body {
+    font-size: 25px;
+    font-family: A chamran;
+    background-image: url("images.jpg");
+}
+
+.orginal {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, fr);
+    align-content: center;
+    margin: 200px;
+}
+
+.container {
+    grid-gap: 30px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row: 3/-1;
+}
+
+input {
+    border: 4px double black;
+
+}
+
+.codmeli {
+    margin-top: 60px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+::placeholder {
+    color: rgba(89, 84, 84, 0.548);
+    font-size: 15px;
+}
+
+.click {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 45px;
+
+}
+
+button {
+    font-size: 25px;
+}
+
+
+.style2 {
+    background-color: #c3a004cf;
+    grid-column: 1/3;
+    border-radius: 4px;
+    padding: 4px;
+    transition: all 0.3s;
+
+}
+
+.style2:hover {
+    transform: scale(1.1);
+    background-color: #c3a00477;
+
+}
+
+.style3 {
+    background-color: #c3a004cf;
+    grid-column: 3/-1;
+    border-radius: 4px;
+    transition: all 0.3s;
+
+}
+
+.style3:hover {
+    transform: scale(1.1);
+    background-color: #c3a00477;
+
+}
+
+.style4 {
+    background-color: #c3a004cf;
+    grid-column: 1/3;
+    border-radius: 4px;
+    transition: all 0.3s;
+
+}
+
+.style4:hover {
+    transform: scale(1.1);
+    background-color: #c3a00477;
+
+}
+
+.style5 {
+    background-color: #c3a004cf;
+    grid-column: 3/-1;
+    border-radius: 4px;
+    transition: all 0.3s;
+
+}
+
+.style5:hover {
+    transform: scale(1.1);
+    background-color: #c3a00477;
+
+}
+

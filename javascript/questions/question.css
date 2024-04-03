@@ -1,0 +1,86 @@
+body {
+    background-image: url('images.jpg');
+    direction: rtl;
+}
+
+.container {
+    background-color: #ffffff2b;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 80px;
+    grid-gap: 20px;
+    border-radius: 5px;
+}
+
+.logo{
+    padding-right: 500px;
+    
+}
+#input1{
+    grid-column: 1/-1;
+}
+#input2{
+    grid-column: 1/-1;
+}
+#input3{
+    grid-column: 1/-1;
+}
+
+#text4{
+    grid-column: 1/-1;
+    grid-row:5/8 ;
+}
+::placeholder{
+    color: rgba(37, 36, 36, 0.72);
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+input{
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+textarea{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    resize: none;
+}
+button{
+    border: 2px solid goldenrod ;
+    border-radius: 20px;
+}
+
+.t1{
+    color: goldenrod;
+    width: 75%;
+    transition: all 0.3s;
+}
+
+.t1:hover{
+    transform: scale(1.1);
+    background-color: goldenrod;
+    color: black;
+    border: none;
+}
+
+.t2{
+    border: none;
+    background-color: rgba(218, 165, 32, 0.839);
+    transition: all 0.3s;
+
+}
+
+.t2:hover{
+    transform: scale(1.1);
+    background-color: aliceblue;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+}

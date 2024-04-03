@@ -1,0 +1,13 @@
+#dv1{
+    height: 100vh;
+    width: 100%;
+    background-image: url('images\ -\ Copy.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#btn1{
+    margin-top: 20px;
+}
+

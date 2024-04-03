@@ -1,0 +1,41 @@
+
+body{
+    background-image: url('images.jpg');
+}
+
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+    padding: 300px;
+    padding-left: 450px;
+}
+.captcha{
+    grid-column: 1/2;
+    background-color: azure;
+    color: black;
+    padding: 2px;
+    padding-left: 85px;
+    border: 2px solid black;
+}
+.write{
+    grid-column: 2/3;
+    background-color: antiquewhite;
+}
+input{
+    border-radius: 5px;
+}
+.click{
+    grid-column: 1/3;
+    border-radius: 5px;
+    background-color: blue;
+    transition: all 0.3s;
+    color: #fff;
+    font-size: 20px;
+}
+.click:hover{
+    background-color: orangered;
+    transform: scale(1.1);
+}

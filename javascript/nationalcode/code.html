@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecode.css">
+    <link rel="shortcut icon" href="drupal.png" type="image/x-icon"/>
+
+    <title>صحت کد ملی</title>
+</head>
+
+<body>
+    <div class="orginal">
+        <div class="container">
+            <div class="style1">
+                <input type="text" class="codmeli" id="number" pattern="[0-9]{10}" minlength="10" maxlength="10"
+                    placeholder="کد ملی خود را وارد نمایید..." dir="rtl" required>
+            </div>
+
+            <div class="click">
+                <button onclick="national_code()" class="style2">استعلام</button>
+                <button onclick="clearDisplay()" class="style5">پاک کردن</button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="sriptcode.js"></script>
+</body>
+
+</html>

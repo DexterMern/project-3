@@ -1,0 +1,86 @@
+body {
+    background-image: url('149871.jpg');
+    background-repeat: initial;
+    background-size: 100% auto;
+    background-position: left right top bottom;
+}
+
+ul {
+    margin: 2px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+a:hover{
+    transform: scale(1.1);
+    color: orange;
+}
+
+#carousel3{
+    transition: all 0.3s;
+}
+#carousel3:hover{
+    transform: scale(1.1);
+    background-color: rgba(240, 248, 255, 0.279);
+    border: blue;
+    color: #fff;
+    font-weight: 10px;
+}
+
+.facebook1{
+    transition: all 0.3s;
+}
+.facebook1:hover{
+    transform: scale(1.1);
+    color: rgb(45, 45, 106);
+}
+.twitter1{
+    transition: all 0.3s;
+}
+.twitter1:hover{
+    transform: scale(1.1);
+    color: rgb(33, 117, 117);
+}
+.google1{
+    transition: all 0.3s;
+}
+.google1:hover{
+    transform: scale(1.1);
+    color: orangered;
+}
+.instagram1{
+    transition: all 0.3s;
+}
+
+.instagram1:hover{
+    transform: scale(1.1);
+    color: rgb(210, 25, 111);
+}
+.linkdin1{
+    transition: all 0.3s;
+}
+
+.linkdin1:hover{
+    transform: scale(1.1);
+    color: rgb(14, 14, 87);
+}
+.github1{
+    transition: all 0.3s;
+}
+
+.github1:hover{
+    transform: scale(1.1);
+    color: rgb(43, 10, 43);
+}
+.btn1{
+    transition: all 0.3s;
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+    
+}
